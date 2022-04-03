@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <style>
+        table {
+            text-align:center;
+        }
+
+        img {
+            height:100px;
+            width:100px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sale.html">For Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adopt.html">Adopt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopping.html">Shopping</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <caption>Our current breeds</caption>
+    <table class="table table-striped table-dark table-bordered">
+ 
+        <thead>
+            <tr>
+                <th scope="col">Breed</th>
+                <th scope="col">Origin</th>
+                <th scope="col">Type</th>
+                <th scope="col">Body Type</th>
+                <th scope="col">Coat type and length</th>
+                <th scope="col">Coat pattern</th>
+                <th scope="col">Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="align-middle">Abyssianian</td>
+                <td class="align-middle">Ethiopia</td>
+                <td class="align-middle">Natural</td>
+                <td class="align-middle">Semi-foreign</td>
+                <td class="align-middle">Short</td>
+                <td class="align-middle">Ticked tabby</td>
+                <td class="align-middle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/200px-Gustav_chocolate.jpg" alt=""></td>
+            </tr>
+
+            <tr>
+                <td class="align-middle">Aegean</td>
+                <td class="align-middle">Greece</td>
+                <td class="align-middle">Natural</td>
+                <td class="align-middle">Semi-foreign</td>
+                <td class="align-middle">Short</td>
+                <td class="align-middle">Ticked tabby</td>
+                <td class="align-middle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Aegean_cat.jpg/200px-Aegean_cat.jpg" alt=""></td>
+            </tr>
+
+            <tr>
+                <td class="align-middle">American Bobtail</td>
+                <td class="align-middle">US</td>
+                <td class="align-middle">Mutation</td>
+                <td class="align-middle">Semi-foreign</td>
+                <td class="align-middle">Short</td>
+                <td class="align-middle">Ticked tabby</td>
+                <td class="align-middle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/American_bobtail_2.jpg/200px-American_bobtail_2.jpg" alt=""></td>
+            </tr>
+
+            <tr>
+                <td class="align-middle">American Curl</td>
+                <td class="align-middle">US</td>
+                <td class="align-middle">Mutation</td>
+                <td class="align-middle">Semi-foreign</td>
+                <td class="align-middle">Short</td>
+                <td class="align-middle">Ticked tabby</td>
+                <td class="align-middle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/American_curl_2.jpg/200px-American_curl_2.jpg" alt=""></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
